@@ -15,7 +15,7 @@ Social scientists – and indeed, most data scientists – spend most of their t
 
 Social scientists, in other words, tend to be primarily interested in learning to *use existing tools* effectively, not develop new ones. 
 
-Because of this, social scientists learning Python tend to have different priorities in terms of skill development than software developers. Yet most tutorials online were written for developers or computer science students, so one of the aims of PSS is to provide social scientists with some guidance on the skills they should prioritize in their early training. In particular, PSS suggests:
+Because of this, social scientists learning Python tend to have different priorities in terms of skill development than software developers. Yet most tutorials online were written for developers or computer science students, so one of the aims of PSS is to provide social scientists with some guidance on the skills they should prioritize in their early training. `In particular, PSS suggests: <http://www.pythonforsocialscientists.org/2_basic_python.html>`_
 
 **Need immediately:**
 
@@ -40,17 +40,17 @@ Because of this, social scientists learning Python tend to have different priori
 pandas
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Today, most empirical social science remains organized around tabular data, meaning data that is presented with a different variable in each column and a different observation in each row. As a result, many social scientists using Python are a little confused when they don't find a tabular data structure covered in their intro to Python tutorial. To address this confusion, PSS does its best to introduce users to the `pandas` library as fast as possible. 
+Today, most empirical social science remains organized around tabular data, meaning data that is presented with a different variable in each column and a different observation in each row. As a result, many social scientists using Python are a little confused when they don't find a tabular data structure covered in their intro to Python tutorial. To address this confusion, PSS does its best to introduce users to the `pandas` library as fast as possible, providing `links to tutorials and a few tips on gotchas to watch out for. <http://www.pythonforsocialscientists.org/3_pandas.html>`_
 
 The `pandas` library replicates much of the functionality that social scientists are used to finding in Stata or R -- data can be represented in a tabular format, column variables can be easily labeled, and columns of different types (like floats and strings) can be combined in the same dataset. 
 
 `pandas` is also the gateway to many other tools social scientists are likely to use, like graphing libraries (`seaborn` and `ggplot2`) and the `statsmodels` econometrics library. 
 
 
-Libraries by Research Area
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Other Libraries by Research Area
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The aim of the second section is to allow social scientists with a research interest to quickly zero-in on the most useful library for what the want to accomplish. In particular, the site provides the following recommendations for different topics, along with links to materials on optimal use, and guidance on relevant considerations:
+While all social scientists who wish to work with Python will need to understand the core language and most will want to be familiar with `pandas`, the Python eco-system is full of applications-specific libraries that will only be of use to a subset of users. With that in mind, PSS provides an overview of libraries to help researchers working in different topic areas, along with links to materials on optimal use, and guidance on relevant considerations:
 
 * `Network Analysis <http://www.pythonforsocialscientists.org/t_igraph.html>`_: iGraph
 * `Text Analysis <http://www.pythonforsocialscientists.org/t_text_analysis.html>`_: NLTK, and if needed coreNLP
