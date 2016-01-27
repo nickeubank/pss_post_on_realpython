@@ -11,7 +11,7 @@ The site is **not** a new set of tutorials, however -- there are *more* than eno
 Why A Site for Social Scientists?
 -----------------------------------
 
-Social scientists – and indeed, most data scientists – spend most of their time trying to wrestle individual, idiosyncratic datasets into the shape needed to run statistical analyses.This makes the way most social scientists use Python fundamentally different from how it is used by most software developers. Social scientists are primarily interested in writing relatively simple programs (scripts) that execute a series of commands (recoding variables, merging datasets, parsing text documents, etc.) to wrange their data into a form they can analyze. And because they are usually writing their scripts for a specific, idiosyncratic application and set of data, they are generally not focused on writing generalizable code. 
+Social scientists – and indeed, most data scientists – spend most of their time trying to wrestle individual, idiosyncratic datasets into the shape needed to run statistical analyses.This makes the way most social scientists use Python fundamentally different from how it is used by most software developers. Social scientists are primarily interested in writing relatively simple programs (scripts) that execute a series of commands (recoding variables, merging datasets, parsing text documents, etc.) to wrange their data into a form they can analyze. And because they are usually writing their scripts for a specific, idiosyncratic application and set of data, they are generally not focused on writing code with lots of abstractions. 
 
 Social scientists, in other words, tend to be primarily interested in learning to *use existing tools* effectively, not develop new ones. 
 
@@ -25,10 +25,11 @@ Because of this, social scientists learning Python tend to have different priori
 * Understanding mutable versus immutable data types
 * Methods for manipulating strings
 * Importing third party modules
+* Reading and interpreting errors
 
 **Things you'll want to know at some point, but not necessary immediately:**
 
-* Debugging
+* Advanced debugging utilities (like pdb)
 * File input / output (most libraries you'll use have tools to simplify this for you)
 
 **Don't need:**
